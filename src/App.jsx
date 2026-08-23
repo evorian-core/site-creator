@@ -242,7 +242,7 @@ function App() {
           <div className="brand">
 
             <img
-              src="/evorian-icon.png"
+              src={`${import.meta.env.BASE_URL}evorian-icon.png`}
               alt="EVORIAN"
               className="brand-symbol"
             />
@@ -817,7 +817,7 @@ function App() {
             >
 
               <img
-                src="/evorian-icon.png"
+                src={`${import.meta.env.BASE_URL}evorian-icon.png`}
                 alt="EVORIAN"
               />
 
